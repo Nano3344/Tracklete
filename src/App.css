@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Home-header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #212121;
+}
+.Home-nav a {
+  color: #212121;
+  text-decoration: none;
+}
+.Home-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.Home-description {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+}
+.Home-description h1 {
+  color: #212121;
+  font-size: 45px;
+}
+.Home-description h1 span {
+  color: #FF6927;
+}
+.Home-description h3 {
+  color: #212121;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.Home-description .Button-section {
+  display: flex;
+}
+.Home-description a {
+  margin-top: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 22px;
+  background-color: #FF6927;
+  font-weight: bold;
+}
+.Home-visuals {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home-visuals .Visual-rectangle {
+  width: 500px;
+  height: 350px;
+  background-color: #FF6927;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+}
+.Home-visuals img {
+  z-index: 2;
+  width: 280px;
+}
+.Home-visuals img:nth-child(1) {
+  position: absolute;
+  top: 10000px;
+  right: 0;
+}
+.Home-visuals img:nth-child(2) {
+  position: absolute;
+  top: 300px;
+  right: 50;
+}
+.Home-visuals img:nth-child(3) {
+  position: absolute;
+  top: 300px;
+  right: 50;
+}
