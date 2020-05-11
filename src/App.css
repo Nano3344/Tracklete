@@ -76,18 +76,21 @@
   z-index: 2;
   width: 280px;
 }
-.Home-visuals img:nth-child(1) {
-  position: absolute;
-  top: 10000px;
-  right: 0;
-}
 .Home-visuals img:nth-child(2) {
   position: absolute;
-  top: 300px;
-  right: 50;
+  width: 220px;
+  top: 170px;
+  right: 40px;
+  transform: rotate(20deg);
 }
 .Home-visuals img:nth-child(3) {
   position: absolute;
-  top: 300px;
-  right: 50;
+  top: 60px;
+  right: 300px;
+}
+.Home-visuals img:nth-child(4) {
+  position: absolute;
+  top: 320px;
+  right: 250px;
+  transform: rotate(-30deg);
 }
